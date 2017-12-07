@@ -1,118 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme Simply Me</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-      background-color: #1abc9c; /* Green */
-      color: #ffffff;
-  }
-  .bg-2 { 
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
-  }
-  .bg-3 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
-  }
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-  }
-  .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
-  </style>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    body {
+        font: 20px Montserrat, sans-serif;
+        line-height: 1.8;
+        color: #f5f6f7;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .margin {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .bg-1 {
+        background-image: url(../computer.jpg);
+        height: 900px;
+
+        color: #3a3a3a;
+        background-size: cover;
+        /*background-position: center center;*/
+    }
+
+    .bg-2 {
+        background-color: #474e5d;
+        /* Dark Blue */
+        height: 900px;
+        color: #ffffff;
+    }
+
+    .bg-3 {
+        color: #3a3a3a;
+        height: 900px;
+    }
+
+    .bg-4 {
+        background-color: #474e5d;
+        /* White */
+        color: white;
+        font-size: 40px;
+        height: 900px;
+    }
+
+    .bg-5 {
+        background-color: #2f2f2f;
+        /* Black Gray */
+        color: #fff;
+        height: 500px;
+    }
+
+    .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .navbar {
+
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+
+
+
+    .navbar-nav li a:hover {
+        color: #1abc9c!important;
+    }
+
+    span {
+        position: absolute;
+        bottom: 300px;
+        left: 50px;
+    }
+
+    #description {
+
+        padding: 10px;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        /*width: 35%;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+
+    #image {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #portfolios {
+        margin-left: 80px;
+    }
+
+    .p1 {
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    </style>
 </head>
+
 <body>
-
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Me</a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#aboutme" id="welcome">ABOUT ME</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#tools">TOOLS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- First Container -->
+    <div class="container-fluid bg-1  ">
+        <span>
+        <h3 class="margin" > Welcome to my digital home.</h3>
+        <br>
+        <!--         <img src="computer.jpg" class="img-responsive" style="display:inline" alt="computer.jpg">
+ -->
+      <!-- <h3 class="margin">         < FRONT AND DEVELOPER > </h3></span> -->
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">WHO</a></li>
-        <li><a href="#">WHAT</a></li>
-        <li><a href="#">WHERE</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Who Am I?</h3>
-  <img src="" class="img-responsive img-circle margin" style="display:inline" alt="Dijana" width="350" height="350">
-  <h3>I'm an adventurer</h3>
-</div>
-
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-  <h3 class="margin">What Am I?</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-  <a href="#" class="btn btn-default btn-lg">
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center ">
+        <div id="description">
+            <p id="aboutme">Who am I?
+                <br>My name is Dijana Limani. I'm from Belgrad,Serbia. I graduated from ICT College of Vocational Studies, where I studied Postal and Banking Technologies. </p>
+        </div>
+        <div id="image">
+            <img src="../ME.jpg" style="height: 300px;width: 400px;" alt='Image' class="img-circle">
+            <!-- <a href="#" class="btn btn-default btn-lg">
     <span class="glyphicon glyphicon-search"></span> Search
-  </a>
+  </a> -->
+        </div>
+    </div>
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid bg-3" id="portfolio">
+        <h3 style="text-align: center;font-size: 40px;margin-bottom: 40px;"><u>PORTFOLIO</u></h3>
+        <div id="portfolios">
+            <p class="p1">Pomodoro timer</p>
+            <a href="https://dijanal.github.io/pomodorist/" target="_blank">  <img src="../pomodoro.jpg" alt="pomodoro"></a>
+        </div>
+    </div>
+    <div class="container-fluid bg-4 text-center" id="tools">
+        <h3 class="margin" style="margin-bottom: 60px;"><u>MY TOOLS</u></h3>
+        <!--  <br>
+        <div class="row">
+            <div class="col-sm-4"> -->
+        <img src="../images.jpg" alt="tools" style="height: 500px;width: 600px;">
+        <!-- <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image"> -->
+        <!-- </div>
+<div class="col-sm-4">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
 </div>
-
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">Where To Find Me?</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-  </div>
+<div class="col-sm-4">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
 </div>
-
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
-</footer>
-
+</div> -->
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid bg-5 text-center" id="contact">
+        <p style="font-size: 30px;margin-bottom: 40px"><u>GET IN TOUCH </u></p>
+        <p><img src="../download.jpg" alt="e mail" style="height: 100px;width: 100px;margin-bottom: 20px" class="img-circle"> dijanans5@hotmail.com</p>
+        <p><img src="../github.jpg" style="height: 100px;width: 100px;margin-bottom: 40px;" class="img-circle" alt="github"> <a href="https://github.com/dijanal" target="_blank">dijanal.github</a></p>
+        <p style="float:left;font-size: 30px;"><a href="#welcome">Back to top</a></p>
+    </footer>
 </body>
+
 </html>
