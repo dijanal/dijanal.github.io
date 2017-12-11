@@ -89,7 +89,7 @@ button:focus {
     background-attachment: fixed;
     background-position: left top;
     background-size: 100% 950px;
-    color: #697042;
+    color: black;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -129,6 +129,7 @@ button:focus {
 
 .tm-intro-text {
     margin-bottom: 45px;
+    color: black;
 }
 
 #tm-section-1,
@@ -201,7 +202,7 @@ button:focus {
 .tm-gray-btn {
     background-color: #666666;
     border: 2px solid #666666;
-    color: white;
+    color: black;
 }
 
 .tm-gray-btn:hover,
@@ -313,6 +314,7 @@ button:focus {
     padding: 0;
 }
 
+
 .tm-news-container {
     background-color: white;
     display: -webkit-flex;
@@ -366,6 +368,8 @@ button:focus {
     margin-bottom: 5px;
 }
 
+
+
 .tm-img-grid {
     margin-top: 60px;
     overflow: auto;
@@ -382,6 +386,9 @@ button:focus {
     width: 25%;
     float: left;
 }
+
+
+
 
 .form-control {
     border-color: rgba(0, 0, 0, 0);
@@ -565,6 +572,7 @@ body.page-2 {
         width: 33.333%;
     }
 }
+
 
 @media (max-width: 767px) {
     .home .tm-section {
