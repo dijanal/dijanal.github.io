@@ -378,6 +378,7 @@ button:focus {
 
 .tm-gallery-img-container {
     max-width: 300px;
+
     width: 25%;
     float: left;
 }

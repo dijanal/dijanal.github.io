@@ -75,10 +75,8 @@
                             <a href="#tm-section-2" class="tm-intro-link" >Begin</a>    
                         </div>                                               
                    </section>
-
                 </div>
             </div>
-
             <div class="row gray-bg">
                 
                 <div id="tm-section-2" class="tm-section">
@@ -92,44 +90,42 @@
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-container">
                                 <h2 class="tm-news-title dark-gray-text">Who am I?</h2>
                                 <p class="tm-news-text">My name is Dijana Limani. I'm from Belgrad,Serbia. I graduated from ICT College of Vocational Studies, where I studied Postal and Banking Technologies.
-
 </p>
                            
                             </div>
                         </div>
-
                      
                     </div>                    
                </div>
-
            </div> <!-- row -->
-
             <div class="row">
-
                 <section id="tm-section-3" class="tm-section">
                     <div class="tm-container text-xs-center">
                         
                         <h2 class="blue-text tm-title">Portfolio</h2>
                         
                        
-                        <div class="tm-img-grid">
+                        <!-- <div class="tm-img-grid"> -->
                             <div class="tm-gallery-img-container">
                                 <a href="https://dijanal.github.io/pomodorist/" target="_blank" class="tm-gallery-img-link">
                                     <img src="img/pomodoro.jpg" alt="Image" class="img-fluid tm-gallery-img"> <!-- 300x200 -->
                                 </a>
+                               
+                            </div>
+                              <div class="tm-gallery-img-container">
+                                <a href="https://dijanal.github.io/JMBG/" target="_blank" class="tm-gallery-img-link">
+                                    <img src="img/jmbg.jpg" alt="Image" class="img-fluid tm-gallery-img" class="img-responsive" >
+                                </a>
+                               
                             </div>
                           
-                        </div>
+                       <!--  </div> -->
                     </div>
                 </section>
-
             </div> <!-- row -->
-
             <div class="row gray-bg">
-
                 <section id="tm-section-4" class="tm-section">
                     <div class="tm-container">
-
                         <h2 class="blue-text tm-title text-xs-center">Contact me</h2>
                       
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
@@ -160,14 +156,12 @@
                         </div>
                     </div>                    
                 </section>
-
                 <!-- footer -->
                 <footer class="tm-footer">                
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <p class="text-xs-center tm-footer-text">Copyright &copy; 2017 Dijana Limani</p>                    
                     </div>                
                 </footer>  
-
             </div> <!-- row -->
            
         </div> <!-- container-fluid -->
@@ -184,11 +178,9 @@
         <script>     
        
             $(document).ready(function(){
-
                 var mobileTopOffset = 54;
                 var desktopTopOffset = 80;
                 var topOffset = desktopTopOffset;
-
                 if($(window).width() <= 767) {
                     topOffset = mobileTopOffset;
                 }
@@ -200,7 +192,6 @@
                     offset : topOffset,
                     'filter': ':not(.external)'
                 }); 
-
                 /* Handle nav offset upon window resize
                 -----------------------------------------*/
                 $(window).resize(function(){
@@ -210,7 +201,6 @@
                     else {
                         topOffset = desktopTopOffset;
                     }
-
                     $('#tmNavbar').singlePageNav({
                         'currentClass' : "active",
                         offset : topOffset,
@@ -218,24 +208,20 @@
                     });
                 });
                 
-
                 /* Collapse menu after click 
                 -----------------------------------------*/
                 $('#tmNavbar a').click(function(){
                     $('#tmNavbar').collapse('hide');
                 });
-
                 /* Turn navbar background to solid color starting at section 2
                 ---------------------------------------------------------------*/
                 var target = $("#tm-section-2").offset().top - topOffset;
-
                 if($(window).scrollTop() >= target) {
                     $(".tm-navbar-container").addClass("bg-inverse");
                 }
                 else {
                     $(".tm-navbar-container").removeClass("bg-inverse");
                 }
-
                 $(window).scroll(function(){
                    
                     if($(this).scrollTop() >= target) {
@@ -245,8 +231,6 @@
                         $(".tm-navbar-container").removeClass("bg-inverse");
                     }
                 });
-
-
                 /* Smooth Scrolling
                  * https://css-tricks.com/snippets/jquery/smooth-scrolling/
                 --------------------------------------------------------------*/
@@ -266,7 +250,6 @@
                         }
                     }
                 }); 
-
               
                 /* Magnific pop up
                 ------------------------- */
@@ -276,8 +259,6 @@
                     gallery: {enabled:true}            
                 });            
             });
-
         </script>             
-
 </body>
 </html>
