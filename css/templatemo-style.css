@@ -86,8 +86,10 @@ button:focus {
 
 .tm-intro {
     background: url(../img/computer.jpg) no-repeat;
+    background-size: cover;
     background-attachment: fixed;
-    background-position: left top;
+    background-position: top;
+ background-size: contain;
     background-size: 100% 950px;
     color: black;
     display: -webkit-flex;
@@ -384,6 +386,7 @@ button:focus {
     max-width: 300px;
 
     width: 25%;
+    height: 250px;
     float: left;
 }
 

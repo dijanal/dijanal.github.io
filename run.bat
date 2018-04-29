@@ -1,2 +1,2 @@
-cd c:/Users/Sinergija19/Desktop/workspace/New folder
+cd c:/Users/Dijana/Desktop/workspace/New folder
 live-server
