@@ -175,6 +175,10 @@ button:focus {
 .gray-bg {
     background-color: #F4F4F4;
 }
+.gray-bg-contact {
+    background-color: #F4F4F4;
+    height:500px;
+}
 
 .dark-gray-text {
     color: #666666;
@@ -225,6 +229,10 @@ button:focus {
     color: white;
 }
 
+i{
+    height:100px;
+    width:100px;
+}
 .tm-light-blue-bordered-btn {
     background: transparent;
     border: 2px solid #4EA7FF;
