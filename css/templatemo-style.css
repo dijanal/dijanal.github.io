@@ -332,6 +332,23 @@ button:focus {
     padding-right: 3%;
 }
 
+.tm-news-container-skills {
+    background-color: white;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    border:1px solid #d2d4d8
+}
+
+
 .tm-news-title {
     font-weight: 300;
     margin-bottom: 30px;
@@ -656,4 +673,8 @@ body.page-2 {
         height: 100vh;
         min-height: 600px;
     }
+}
+
+.img-carousel{
+    {height:600px;width:100%}
 }
