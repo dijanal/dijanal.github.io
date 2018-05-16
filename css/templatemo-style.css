@@ -844,11 +844,10 @@ body {
     background:url('../img/mountain.jpg') no-repeat center  ;
     /* background-color: grey; */
     width:100%;
-    color:white;
 }
 
 #div-project{
-    color:white
+    color:black
 }
 
 #link-project{
@@ -862,4 +861,10 @@ body {
     color:black;
     background-color: white;
 }
+
+#tm-section-5{
+    background:url('../img/contact.jpg') no-repeat center;
+}
+
+
 
